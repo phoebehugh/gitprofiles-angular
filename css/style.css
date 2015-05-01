@@ -3,10 +3,8 @@ body {
 }
 
 form {
-  margin-top: 20px;
+  margin: 20px auto;
   width: 500px;
-  margin-left: auto;
-  margin-right: auto;
   background-color: hotpink;
   padding: 10px;
   outline: 1px solid gray;
@@ -17,16 +15,14 @@ form > * {
 }
 
 .list-group {
-  margin-top: 30px;
   width: 300px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 20px auto;
 
 }
 
 .list-group > * {
   padding: 10px;
   outline: 1px solid gray;
-  background-color: skyblue;
+  background-color: white;
   list-style-type: none;
 }
