@@ -1,0 +1,32 @@
+body {
+  background-image: url('./images/image.jpeg')
+}
+
+form {
+  margin-top: 20px;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: hotpink;
+  padding: 10px;
+  outline: 1px solid gray;
+}
+
+form > * {
+  clear: left;
+}
+
+.list-group {
+  margin-top: 30px;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.list-group > * {
+  padding: 10px;
+  outline: 1px solid gray;
+  background-color: skyblue;
+  list-style-type: none;
+}
